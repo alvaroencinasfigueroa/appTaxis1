@@ -1,4 +1,4 @@
-package com.example.apptaxis;
+package com.example.mistaxis;
 
 import org.junit.Test;
 
