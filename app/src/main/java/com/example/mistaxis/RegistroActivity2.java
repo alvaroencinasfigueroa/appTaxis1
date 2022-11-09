@@ -52,6 +52,9 @@ public class RegistroActivity2 extends AppCompatActivity {
                     Toast.makeText(RegistroActivity2.this, "COMPLETAR LOS DATOS", Toast.LENGTH_SHORT).show();
                 }else{
                     registerUser(nameUser, emailUser, passUser);
+                    nombre.setText("");
+                    correo.setText("");
+                    password.setText("");
                 }
             }
         });
