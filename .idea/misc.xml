@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/taxis/app/src/main/res/layout/activity_main.xml" value="0.15760869565217392" />
-        <entry key="..\:/taxis/app/src/main/res/layout/activity_registro2.xml" value="0.15760869565217392" />
+        <entry key="..\:/taxis/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2125" />
+        <entry key="..\:/taxis/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2125" />
+        <entry key="..\:/taxis/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2125" />
+        <entry key="..\:/taxis/app/src/main/res/drawable/ic_launcher_foregroung.xml" value="0.26205128205128203" />
+        <entry key="..\:/taxis/app/src/main/res/layout/activity_login.xml" value="0.1522633744855967" />
+        <entry key="..\:/taxis/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/taxis/app/src/main/res/layout/activity_prueba.xml" value="0.14322916666666666" />
+        <entry key="..\:/taxis/app/src/main/res/layout/activity_registro2.xml" value="0.1" />
       </map>
     </option>
   </component>
