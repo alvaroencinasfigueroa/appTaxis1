@@ -43,8 +43,10 @@
         android:text="COMO PASAJERO"
 
         android:textSize="18sp"
+        android:onClick="irActividadRegistro"
         app:backgroundTint="#03A9F4"
         app:cornerRadius="20dp"
+
         />
 
     <Button
@@ -62,6 +64,7 @@
         android:fontFamily="sans-serif-black"
 
         android:text="COMO TAXISTA"
+        android:onClick="irActividadRegistroTaxista"
         android:textSize="18sp"
         app:backgroundTint="#03A9F4"
         app:cornerRadius="20dp"
