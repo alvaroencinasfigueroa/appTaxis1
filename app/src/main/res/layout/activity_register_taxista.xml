@@ -8,6 +8,74 @@
     android:background="@color/black"
     >
 
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="ENVIAR DATOS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2ModeloVehiculo"
+        app:layout_constraintVertical_bias="0.933" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="177dp"
+        android:layout_height="51dp"
+        android:text="SUBIR FOTO TAXISTA"
+        android:textSize="12sp"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2ModeloVehiculo"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="177dp"
+        android:layout_height="51dp"
+        android:text="SUBIR FOTO TAXI"
+        android:textSize="15sp"
+        app:backgroundTint="#03A9F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2ModeloVehiculo"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <EditText
+        android:id="@+id/textView2ModeloVehiculo"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:hint="MODELO VEHÍCULO"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonNamePlaca"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonNamePlaca"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:hint=" PLACA VEHÍCULO"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintVertical_bias="0.032" />
+
     <TextView
         android:id="@+id/RegisterTaxista"
         android:layout_width="366dp"
@@ -24,7 +92,56 @@
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.062" />
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="  NOMBRE (completo) DE USUARIO"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RegisterTaxista"
+        app:layout_constraintVertical_bias="0.031" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="  NÚMERO DE CELULAR"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="380dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="  EMAIL"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        app:layout_constraintVertical_bias="0.032" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
